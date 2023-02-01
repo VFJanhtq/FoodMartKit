@@ -7,9 +7,9 @@ let package = Package(
     name: "MartKit",
     defaultLocalization: "en",
     platforms: [
-//        .macOS("13.1"),
+        .macOS("12.6"),
         .iOS("16.0"),
-//        .macCatalyst("16.2")
+        .macCatalyst("16.0")
     ],
     products: [
         .library(
